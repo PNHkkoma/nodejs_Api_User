@@ -1,0 +1,17 @@
+#EditorConfig giúp duy trì các kiểu mã hóa nhất quán cho nhiều nhà phát triển làm việc trên cùng một dự án trên các trình chỉnh sửa và IDE khác nhau. 
+#Dự án EditorConfig bao gồm một định dạng tệp để xác định kiểu mã hóa và một bộ sưu tập các plugin soạn thảo văn bản cho phép người chỉnh sửa đọc định dạng tệp và tuân thủ các kiểu đã xác định. 
+
+#=> định nghĩa các kích cỡ của sidepard, đuôi file
+# EditorConfig is awesome: https://EditorConfig.org
+
+# top-most EditorConfig file
+root = true #cái này chỉ để cho lever của editorconfig 
+
+
+# Matches multiple files with brace expansion notation
+# Set default charset
+[*.js]
+charset = utf-8
+indent_style = space
+indent_size = 2
+
